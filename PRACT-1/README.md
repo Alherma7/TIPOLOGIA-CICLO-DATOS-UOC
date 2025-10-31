@@ -5,6 +5,8 @@ Primera práctica de la asignatura Tipología y ciclo de vida de los datos del m
 
 En este caso se ha utilizado la web https://www.allrecipes.com/
 
+<img width="854" height="545" alt="Captura de pantalla 2025-10-31 170431" src="https://github.com/user-attachments/assets/bb730b17-cd17-4f7f-a6c7-f5da5586efb3" />
+
 ## Equipo
 
 El proyecto se ha realizado de forma grupal por Àlex Andrés Castilla y Alejandro Hernández Mairal.
