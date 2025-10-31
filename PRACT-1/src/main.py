@@ -7,6 +7,7 @@ from save import save_recipes
 import pandas as pd
 from selenium.webdriver.common.by import By
 import time
+import csv
 
 
 def main():
@@ -34,4 +35,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
