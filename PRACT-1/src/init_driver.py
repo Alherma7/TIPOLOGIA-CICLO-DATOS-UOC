@@ -1,4 +1,5 @@
 #init_driver
+
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 import os
@@ -10,4 +11,5 @@ def create_driver(path):
 
 def open_url(driver, url):
     driver.get(url)
+
 
