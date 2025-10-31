@@ -31,6 +31,6 @@ recipes_links = build_recipes_links(country_url, HEADERS, target_country="Spanis
 recipes = get_recipe(recipes_links, max_recipes_per_country=3)
 #recipes = get_recipe(recipes_links)
 save_recipes(recipes)
-recipes_df = pd.read_csv("Recetas01.csv", delimiter=";")
-recipes_df.head()
+
+
 
