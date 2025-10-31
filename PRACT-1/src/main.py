@@ -1,6 +1,3 @@
-from selenium.webdriver.common.by import By
-import time
-
 from init_driver import create_driver, open_url
 from scrap_elements import (find_element_and_click, extract_elements, get_links_from_elements, build_recipes_links,
                             get_recipe)
@@ -8,6 +5,8 @@ from config import DRIVER_NAME, BASE_URL, SELECTORS, HEADERS
 from preprocessing import extract_country
 from save import save_recipes
 import pandas as pd
+from selenium.webdriver.common.by import By
+import time
 
 
 def main():
@@ -35,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
